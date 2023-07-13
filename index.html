@@ -13,6 +13,7 @@
     <!-- Stylesheets & Fonts -->
     <link href="assets/css/plugins.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/our.css" rel="stylesheet">
 
 </head>
 
@@ -25,8 +26,8 @@
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
-                    <div id="logo"> <a href="index.html"><span class="logo-default">POLO</span><span
-                                class="logo-dark">POLO</span></a> </div>
+                    <div id="logo"> <a href="index.html"><span class="logo-default"><img src="assets/images/logos/2.png"/></span><span
+                                class="logo-dark"><img src="assets/images/logos/1.png"/></a> </div>
                     <!--End: Logo-->
                     <!-- Search -->
                     <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i
@@ -169,22 +170,37 @@
         <!-- end: Header -->
 
         <!-- SECTION HOME  -->
-        <section class="fullscreen" style="background: url('images/parallax/13.jpg')">
-            <div class="container">
-                <div class="text-start">
-                    <h1 class="text-uppercase">
-                        <span class="text-md fw-800 counter">
-                            <span data-speed="2000" data-refresh-interval="80" data-to="70" data-from="0"
-                                data-seperator="true"></span>% OFF</span>
-                        <br>
-                        <span class="m-t-20">Summer collection 2015</span>
-                    </h1>
-                    <div class="text-seperator text-seperator-small"></div>
-                    <p class="lead">New Arrivals from $19,99</p>
-                    <a href="#" class="btn btn-red">View Collection</a>
+        <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true">
+            <!-- Slide 1 -->
+            <div class="slide kenburns" data-bg-image="images/slider/notgeneric_bg3.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-center text-light">
+                        <!-- Captions -->
+                        <h1 data-caption-animate="zoom-out">Welcome To Our Shop</h1>
+                        <p>Say hello to the smartest and most flexible bootstrap template. Polo is an powerful template that can build any type of websites, and quite possibly the only one you will ever need.</p>
+                        <div><a href="#welcome" class="btn btn-primary scroll-to">Explore more</a></div>
+                        </span>
+                        <!-- end: Captions -->
+                    </div>
                 </div>
             </div>
-        </section>
+            <!-- end: Slide 1 -->
+            <!-- Slide 2 -->
+            <div class="slide" data-bg-video="video/pexels-waves.mp4">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-start text-light">
+                        <!-- Captions -->
+                        <h1>220+ Laytout Demos</h1>
+                        <p class="text-small">POLO is packed with 220+ pre-made layouts that allow you to quickly jumpstart your project. Completely customizable for creating your own designs.</p>
+                        <div><a href="#welcome" class="btn btn-primary scroll-to">Explore more</a></div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 2 -->
+        </div>
         <!-- end: SECTION HOME -->
 
         <!-- Shop products -->
@@ -201,9 +217,9 @@
                         <div class="col-lg-3">
                             <div class="product">
                                 <div class="product-image">
-                                    <a href="#"><img alt="Shop product image!" src="assets/images/slider/1.jpg">
+                                    <a href="#"><img alt="Shop product image!" src="assets/images/shop/products/1.jpg">
                                     </a>
-                                    <a href="#"><img alt="Shop product image!" src="assets/images/slider/1.jpg">
+                                    <a href="#"><img alt="Shop product image!" src="assets/images/shop/products/10.jpg">
                                     </a>
                                     <span class="product-new">NEW</span>
                                     <span class="product-wishlist">
@@ -993,5 +1009,6 @@
 <script src="assets/js/plugin.js"></script>
 <script src="assets/js/function.js"></script>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/our.js"></script>
 
 </html>
