@@ -27,3 +27,6 @@
 .p-dropdown span {
     color: #fff;
 }
+.p-dropdown-content li{
+    color: #000 !important;
+}
