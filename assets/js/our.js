@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(document).scrollTop() > 300) {
+    if ($(document).scrollTop() > 200) {
       $(".logo-default").hide(); // Show the default logo when scrolled beyond 500 pixels
       $(".logo-dark").show(); // Hide the dark logo
       $("#mainMenu nav  ul  li  a").css({ color: "#000" });
