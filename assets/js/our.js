@@ -15,5 +15,8 @@ $(document).ready(function () {
       $(".icon-globe").css({ color: "#fff" });
       $(".p-dropdown span").css({ color: "#fff" });
     }
+    // if ($(document).scrollTop() == 200){
+    //     $("#header").css({ background-color:"blue"});
+    // }
   });
 });
