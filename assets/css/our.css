@@ -1,18 +1,29 @@
-.logo-default img{height: unset !important;
+.logo-default img {
+    height: unset !important;
     width: 12rem !important;
 }
-.logo-dark img{height: unset !important;
-     width: 12rem !important;
-    }
-    #mainMenu nav ul li a{
-        color: #fff !important;
-    }
-    #btn-search i{
-        color: #fff !important;
-    }
-    .icon-globe{
-        color: #fff !important;
-    }
-    .p-dropdown span{
-        color: #fff !important;
-    }
+
+.logo-dark img {
+    height: unset !important;
+    width: 12rem !important;
+}
+
+#mainMenu nav ul li a {
+    color: #fff;
+}
+
+#btn-search i {
+    color: #fff;
+}
+
+.icon-globe {
+    color: #fff;
+}
+
+.p-dropdown .icon-globe {
+    color: #fff;
+}
+
+.p-dropdown span {
+    color: #fff;
+}
