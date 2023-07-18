@@ -1,7 +1,8 @@
+/* nav bar */
 .logo-default img {
     height: unset !important;
     width: 12rem !important;
-   
+
 }
 
 .logo-dark img {
@@ -28,6 +29,13 @@
 .p-dropdown span {
     color: #fff;
 }
-.p-dropdown-content li{
+
+.p-dropdown-content li {
     color: #000 !important;
 }
+
+/* the item in the navbar dropdown */
+nav ul li ul li a {
+    color: #000 !important;
+}
+/* ^ */
