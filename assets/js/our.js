@@ -20,3 +20,16 @@ $(document).ready(function () {
     // }
   });
 });
+ 
+$(document).ready(function() {
+  var homepage = window.location.pathname === '/';
+  
+  if (!homepage) {
+    $(".logo-default").hide(); // Show the default logo when scrolled beyond 500 pixels
+    $(".logo-dark").show(); // Hide the dark logo
+    $("#mainMenu nav  ul  li  a").css({ color: "#000" });
+    $("#btn-search i").css({ color: "#000" });
+    $(".icon-globe").css({ color: "#000" });
+    $(".p-dropdown span").css({ color: "#000" });
+  }
+});
